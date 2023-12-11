@@ -20,3 +20,7 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
 3) Origin
 4) Xbox
 5) G2A
+
+## Wireframes
+
+![Home](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_AcercaDe.png)
