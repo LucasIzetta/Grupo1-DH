@@ -23,4 +23,26 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
 
 ## Wireframes
 
-![Home](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_AcercaDe.png)
+### Home
+
+![Home](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Home.png)
+
+### Tienda
+
+![Tienda](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Tienda.png)
+
+### Login
+
+![Login](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Login.png)
+
+### Registro
+
+![Registro](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Registro.png)
+
+### Acerca de
+
+![Acerca de](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_AcercaDe.png)
+
+### Contacto
+
+![Contacto](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Contacto.png)
