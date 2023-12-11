@@ -6,8 +6,8 @@ Pagina de venta de videojuegos
 
 ## Referencias:
 
-1- Epic Games
-2- Steam
-3- Origin
-4- Xbox
-5- G2A
+1) Epic Games
+2) Steam
+3) Origin
+4) Xbox
+5) G2A
