@@ -2,7 +2,7 @@
 Este el repositorio del grupo 1 para llevar a cabo las practicas.
 
 ## Tematica
-Pagina de venta de videojuegos
+Pagina de venta de videojuegos destinada a los gamers.
 
 ## Referencias:
 
