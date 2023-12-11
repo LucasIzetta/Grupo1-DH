@@ -1,4 +1,6 @@
 # Grupo1-DH
+![Logo Grupo01](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Design/Logo_Grupo01.png)
+
 Este el repositorio del grupo 1 para llevar a cabo las practicas.# Bienvenido a nuestra página de videojuegos 🎮
 
 ## Tematica de la Pagina
