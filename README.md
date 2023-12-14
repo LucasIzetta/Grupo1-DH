@@ -3,7 +3,7 @@
 
 Este el repositorio del grupo 1 para llevar a cabo las practicas.# Bienvenido a nuestra página de videojuegos 🎮
 
-Link del tablero de tareas (Trello): [Link](http://example.net/](https://trello.com/b/P5tUiHOL/grupo1proyecto)
+Link del tablero de tareas (Trello): [Link de Trello](https://trello.com/b/P5tUiHOL/grupo1proyecto)
 
 ## Tematica de la Pagina
 Nuestra página está dedicada a ofrecer una amplia selección de videojuegos para diversas consolas. Desde títulos clásicos hasta los lanzamientos más recientes,
