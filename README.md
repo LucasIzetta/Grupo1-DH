@@ -25,6 +25,11 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
 4) Xbox
 5) G2A
 
+## Estetica
+
+Colores: [Paleta de Colores](https://paletadecolores.com.ar/paleta/160d18/23145b/09456c/026f6e/1ca39e/)
+Tipografia: [Google Fonts](https://fonts.google.com/specimen/Play)
+
 ## Wireframes
 
 ### Home
