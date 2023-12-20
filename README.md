@@ -1,4 +1,4 @@
-# Bienvenido a nuestra página de videojuegos 🎮 (Grupo 01)
+# Grupo 01 - Pagina de videojuegos🎮
 ![Logo Grupo01](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Design/Logo_Grupo01.png)
 
 Este es el repositorio del "Grupo 01" para llevar a cabo el desarrollo de los sprints.
