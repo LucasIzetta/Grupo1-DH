@@ -1,9 +1,7 @@
-# Grupo1-DH
+# Bienvenido a nuestra página de videojuegos 🎮 (Grupo 01)
 ![Logo Grupo01](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Design/Logo_Grupo01.png)
 
 Este es el repositorio del "Grupo 01" para llevar a cabo el desarrollo de los sprints.
-
-# Bienvenido a nuestra página de videojuegos 🎮
 
 Link del tablero de tareas (Trello): [Link de Trello](https://trello.com/b/P5tUiHOL/grupo1proyecto)
 
