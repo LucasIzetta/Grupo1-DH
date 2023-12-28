@@ -18,6 +18,7 @@ Nuestro enfoque se centra en brindar opciones para una amplia gama de consolas, 
 Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de Jujuy. Nuestro equipo está conformado por individuos con habilidades diversas, desde expertos en ventas y marketing hasta desarrolladores web y aficionados a la comunidad de videojuegos. Juntos, estamos comprometidos a ofrecer la mejor experiencia para nuestros clientes.
 
 1) Cazon, Nataniel Patricio Jesus
+2) Robles, Axel Iván Lautaro
 
 ## Referencias:
 
