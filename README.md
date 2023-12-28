@@ -21,6 +21,7 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
 2) Robles, Axel Iván Lautaro
 3) Vera, Esteban Sergio
 4) Peña, Pablo Martín
+5) Zambrano, Lucas Ignacio Emanuel
 ## Referencias:
 
 1) Epic Games
