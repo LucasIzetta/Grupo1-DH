@@ -1,4 +1,4 @@
-#Dinamica Estrella de Mar
+# Dinamica Estrella de Mar
 
 1. Comenzar a hacer:
 
