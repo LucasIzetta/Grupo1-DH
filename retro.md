@@ -7,14 +7,13 @@
 2. Hacer más.
 
   - Estar un poco mas al día con las actividades de playground.
-
-	- Estar mas atento a los problemas, relacionados con el sprint, que se puedan presentar a los compañeros.
+  - Estar mas atento a los problemas, relacionados con el sprint, que se puedan presentar a los compañeros.
 
 3. Continuar haciendo.
 
-	- Continuar con las reuniones programadas de los miércoles a las 22:00 por el servidor de discord de Digitalhouse C13.
+- Continuar con las reuniones programadas de los miércoles a las 22:00 por el servidor de discord de Digitalhouse C13.
 
-4. Hacer menos.
+5. Hacer menos.
 
   - No charlar tanto de temas off-topic en las reuniones.
 
