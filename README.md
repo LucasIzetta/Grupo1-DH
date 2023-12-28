@@ -19,7 +19,7 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
 
 1) Cazon, Nataniel Patricio Jesus
 2) Robles, Axel Iván Lautaro
-
+3) Vera, Esteban Sergio
 ## Referencias:
 
 1) Epic Games
