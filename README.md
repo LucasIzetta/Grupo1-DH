@@ -1,5 +1,5 @@
 # Grupo 01 - Pagina de videojuegos🎮
-![Logo Grupo01](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Design/Logo_Grupo01.png)
+![Logo Grupo01](Design/Logo_Grupo01.png)
 
 Este es el repositorio del "Grupo 01" para llevar a cabo el desarrollo de los sprints.
 
@@ -39,24 +39,32 @@ Tipografia: [Google Fonts](https://fonts.google.com/specimen/Play)
 
 ### Home
 
-![Home](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Home.png)
+![Home](Wireframes/Sprint01_Grupo01_Home.png)
 
 ### Tienda
 
-![Tienda](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Tienda.png)
+![Tienda](Wireframes/Sprint01_Grupo01_Tienda.png)
+
+### Detalles de Producto
+
+![Tienda](Wireframes/Sprint01_Grupo01_Pagina_Producto.png)
+
+### Carrito de Compra
+
+![Tienda](Wireframes/Sprint01_Grupo01_Carrito_de_Compra.png)
 
 ### Login
 
-![Login](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Login.png)
+![Login](Wireframes/Sprint01_Grupo01_Formulario_Login.png)
 
 ### Registro
 
-![Registro](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Registro.png)
+![Registro](Wireframes/Sprint01_Grupo01_Formulario_Registro.png)
 
 ### Acerca de
 
-![Acerca de](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_AcercaDe.png)
+![Acerca de](Wireframes/Sprint01_Grupo01_AcercaDe.png)
 
 ### Contacto
 
-![Contacto](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Contacto.png)
+![Contacto](Wireframes/Sprint01_Grupo01_Contacto.png)
