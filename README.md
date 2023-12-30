@@ -20,9 +20,9 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
 - **Cazon, Nataniel Patricio Jesus:** Hola, soy Nataniel, tengo 28 años y soy estudiante de ultimo año de las carreras Analista Programador Universitario (APU) y Tecnicatura Universitaria en Diseño Integral de Videojuegos (TUDIVJ). Me apacionan el deporte, los videojuegos y la buena musica. Espero sea una buena experiencia el poder trabajar en el desarrollo de esta pagina.
 
 - **Robles, Axel Iván Lautaro:** DESCRIPCION
-- 
+  
 - **Vera, Esteban Sergio:** DESCRIPCION
-- 
+  
 - **Peña, Pablo Martín:** DESCRIPCION
 
 ##Referencias:
