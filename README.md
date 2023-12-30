@@ -17,8 +17,7 @@ Nuestro enfoque se centra en brindar opciones para una amplia gama de consolas, 
 ## Equipo
 Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de Jujuy. Nuestro equipo está conformado por individuos con habilidades diversas, desde expertos en ventas y marketing hasta desarrolladores web y aficionados a la comunidad de videojuegos. Juntos, estamos comprometidos a ofrecer la mejor experiencia para nuestros clientes.
 
-1) Cazon, Nataniel Patricio Jesus:
-   Hola, soy Nataniel, tengo 28 años y soy estudiante de ultimo año de las carreras Analista Programador Universitario (APU) y Tecnicatura Universitaria en Diseño Integral de Videojuegos (TUDIVJ). Me apacionan el deporte, los videojuegos y la buena musica. Espero sea una buena experiencia el poder trabajar en el desarrollo de esta pagina.
+- **Cazon, Nataniel Patricio Jesus:** Hola, soy Nataniel, tengo 28 años y soy estudiante de ultimo año de las carreras Analista Programador Universitario (APU) y Tecnicatura Universitaria en Diseño Integral de Videojuegos (TUDIVJ). Me apacionan el deporte, los videojuegos y la buena musica. Espero sea una buena experiencia el poder trabajar en el desarrollo de esta pagina.
     
 3) Robles, Axel Iván Lautaro
 4) Vera, Esteban Sergio
