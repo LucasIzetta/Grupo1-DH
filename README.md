@@ -25,7 +25,7 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
   
 - **Peña, Pablo Martín:** DESCRIPCION
 
-## Referencias:
+## Referencias
 
 1) Epic Games
 2) Steam
