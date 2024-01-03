@@ -1,1 +1,47 @@
+/*
+PALETA DE COLORES
+#271a48
+#1d133d
+*/
 
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #271a48;
+}
+/*HEADER*/
+.barra_busqueda input{
+    color: black;
+}
+
+/*MAIN*/
+main {
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 5px solid green;
+}
+.caja {
+    background-color: #1d133d;
+    width: 90%;
+    max-width: 450px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    box-shadow: 0px 0px 10px rgb(7, 7, 7);
+}
+.caja div {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: white;
+}
+.juego_tendencia {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.juego_tendencia img {
+    margin: 0 5px;
+    width: 430px;
+}
