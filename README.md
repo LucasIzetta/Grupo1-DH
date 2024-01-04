@@ -1,5 +1,5 @@
 # Grupo 01 - Pagina de videojuegos🎮
-![Logo Grupo01](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Design/Logo_Grupo01.png)
+![Logo Grupo01](Design/Logo_Grupo01.png)
 
 Este es el repositorio del "Grupo 01" para llevar a cabo el desarrollo de los sprints.
 
@@ -17,12 +17,15 @@ Nuestro enfoque se centra en brindar opciones para una amplia gama de consolas, 
 ## Equipo
 Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de Jujuy. Nuestro equipo está conformado por individuos con habilidades diversas, desde expertos en ventas y marketing hasta desarrolladores web y aficionados a la comunidad de videojuegos. Juntos, estamos comprometidos a ofrecer la mejor experiencia para nuestros clientes.
 
-1) Cazon, Nataniel Patricio Jesus
-2) Robles, Axel Iván Lautaro: tengo 23 años, actualmente estudio programación de videojuegos en la UnJuFi cursando el 2do año, en mis tiempos libres me gusta juntarme con mis amigos, jugar videojuegos y hacer streaming.
-3) Vera, Esteban Sergio
-4) Peña, Pablo Martín
-5) Zambrano, Lucas Ignacio Emanuel
-## Referencias:
+- **Cazon, Nataniel Patricio Jesus:** Hola, soy Nataniel, tengo 28 años y soy estudiante de ultimo año de las carreras Analista Programador Universitario (APU) y Tecnicatura Universitaria en Diseño Integral de Videojuegos (TUDIVJ). Me apacionan el deporte, los videojuegos y la buena musica. Espero sea una buena experiencia el poder trabajar en el desarrollo de esta pagina.
+
+- **Robles, Axel Iván Lautaro:** tengo 23 años, actualmente estudio programación de videojuegos en la UnJuFi cursando el 2do año, en mis tiempos libres me gusta juntarme con mis amigos, jugar videojuegos y hacer streaming.
+  
+- **Vera, Esteban Sergio:** DESCRIPCION
+  
+- **Peña, Pablo Martín:** DESCRIPCION
+
+## Referencias
 
 1) Epic Games
 2) Steam
@@ -40,24 +43,32 @@ Tipografia: [Google Fonts](https://fonts.google.com/specimen/Play)
 
 ### Home
 
-![Home](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Home.png)
+![Home](Wireframes/Sprint01_Grupo01_Home.png)
 
 ### Tienda
 
-![Tienda](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Tienda.png)
+![Tienda](Wireframes/Sprint01_Grupo01_Tienda.png)
+
+### Detalles de Producto
+
+![Tienda](Wireframes/Sprint01_Grupo01_Pagina_Producto.png)
+
+### Carrito de Compra
+
+![Tienda](Wireframes/Sprint01_Grupo01_Carrito_de_Compra.png)
 
 ### Login
 
-![Login](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Login.png)
+![Login](Wireframes/Sprint01_Grupo01_Formulario_Login.png)
 
 ### Registro
 
-![Registro](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Registro.png)
+![Registro](Wireframes/Sprint01_Grupo01_Formulario_Registro.png)
 
 ### Acerca de
 
-![Acerca de](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_AcercaDe.png)
+![Acerca de](Wireframes/Sprint01_Grupo01_AcercaDe.png)
 
 ### Contacto
 
-![Contacto](https://github.com/LucasIzetta/Grupo1-DH/blob/main/Wireframes/Sprint01_Grupo01_Contacto.png)
+![Contacto](Wireframes/Sprint01_Grupo01_Contacto.png)
