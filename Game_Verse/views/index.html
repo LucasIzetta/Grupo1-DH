@@ -4,19 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Game Verse</title>
+  <title>index</title>
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/index.css">
   <!-- Fonts -->
-
+  <link href="https://fonts.googleapis.com/css2?family=Play&family=Rubik+Bubbles&display=swap" rel="stylesheet">
   <!-- Icons -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
 </head>
-
 <body>
+  <header>
+    <div class="barra_busqueda">
+      <input type="text" placeholder="Buscar...">
+      <button><i class="fas fa-search"></i></button>
+    </div>
+  </header>
 
+  <main>
+    <h2>CARRUSEL DEL GAMING</h2>
+    <div class="carrusel-contenedor">
+      <div class="carrusel-track">
+        <div class="carrusel-item">
+          <img src="./Wirefr ames/mortal-kombat-1.png" alt="Imagen 1">
+        </div>
+        <div class="carrusel-item">
+          <img src="./Wireframes/Fortnite.jpg" alt="Imagen 2">
+        </div>
+        <div class="carrusel-item">
+          <img src="./Wireframes/fc-24.jpg" alt="Imagen 3">
+        </div>
+      </div>
+      <div class="carousel-indicators">
+        <span class="indicator" data-index="0"></span>
+        <span class="indicator" data-index="1"></span>
+        <span class="indicator" data-index="2"></span>
+      </div>
+      <button id="antBtn" class="carrusel-btn">&#8249;</button>
+      <button id="sigBtn" class="carrusel-btn">&#8250;</button>
+    </div>
+    <script src="index.js"></script>
+
+  </main>
 </body>
 
 </html>
