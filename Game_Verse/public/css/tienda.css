@@ -37,12 +37,34 @@ main {
 h2 {
     color: white;
 }
+
 .juego_tendencia {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
+
 .juego_tendencia img {
     margin: 0 5px;
-    width: 430px;
+    width: 90%;
+}
+
+@media only screen and (max-width: 320px) {
+    .juego_tendencia {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 1671px) {
+    .juego_tendencia {
+        max-width: 1670px;
+        margin: auto;
+    }
+    .barra_busqueda, .titulo_tendencia {
+        max-width: 1670px;
+        margin: auto;
+    }
 }
