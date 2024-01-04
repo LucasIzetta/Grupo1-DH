@@ -22,6 +22,8 @@ main {
     margin-right: 1%;
     border: 5px solid green;
 }
+
+/*Tendencias*/
 .caja {
     background-color: #1d133d;
     width: 90%;
@@ -39,16 +41,56 @@ h2 {
 }
 
 .juego_tendencia {
+    border: 5px solid rgb(133, 10, 10);
     display: flex;
     justify-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .juego_tendencia img {
     margin: 0 5px;
     width: 90%;
 }
+
+/*Carrusel Automatico*/
+.caja_carrusel {
+    width: 75%;
+    max-width: 1600px;
+    height: auto;
+    margin: 50px auto 0;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.caja_carrusel ul {
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: slide 35s infinite alternate linear;
+}
+.caja_carrusel li {
+    width: 20%;
+    list-style: none;
+    position: relative;
+}
+.descripcion_carrusel {
+    position: absolute;
+    text-align: center;
+    padding: 0 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, - 50%);
+    color: white;
+}
+.descripcion_carrusel p {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.caja_carrusel img {
+    width: 100%;
+    height: auto;
+}
+
 
 @media only screen and (max-width: 320px) {
     .juego_tendencia {
@@ -67,4 +109,23 @@ h2 {
         max-width: 1670px;
         margin: auto;
     }
+}
+
+/*Carrusel*/
+@keyframes slide {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    40% { margin-left: -100%; }
+
+    45% { margin-left: -200%; }
+    60% { margin-left: -200%; }
+
+    65% { margin-left: -300%; }
+    80% { margin-left: -300%; }
+
+    85% { margin-left: -400%; }
+    100% { margin-left: -400%; }
+
 }
