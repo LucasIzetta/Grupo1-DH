@@ -23,3 +23,11 @@ app.get(`/tienda`, (req, res) => {
 app.get(`/login`, (req, res) => {
   res.sendFile(path.join(__dirname, `/views/login-registro.html`))
 });
+
+app.get(`/navbar`, (req, res) => {
+  res.sendFile(path.join(__dirname, `/views/navbar.html`))
+});
+
+app.get(`/footer`, (req, res) => {
+  res.sendFile(path.join(__dirname, `/views/footer.html`))
+});
