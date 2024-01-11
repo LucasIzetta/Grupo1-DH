@@ -16,6 +16,14 @@ app.get(`/`, (req, res) => {
   res.sendFile(path.join(__dirname, `/views/index.html`))
 });
 
+app.get(`/tienda`, (req, res) => {
+  res.sendFile(path.join(__dirname, `/views/tienda.html`))
+});
+
+app.get(`/login`, (req, res) => {
+  res.sendFile(path.join(__dirname, `/views/login-registro.html`))
+});
+
 app.get(`/navbar`, (req, res) => {
   res.sendFile(path.join(__dirname, `/views/navbar.html`))
 });
