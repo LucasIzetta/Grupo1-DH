@@ -1,239 +1,319 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tienda</title>
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/tienda.css" />
-    <!-- Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Play&family=Rubik+Bubbles&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Icons -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="barra_busqueda">
-        <input type="text" placeholder="Buscar..." />
-        <button><i class="fas fa-search"></i></button>
-      </div>
-    </header>
 
-    <main>
-      <h2 class="titulo_tendencia">TENDENCIAS</h2>
-      <div class="juego_tendencia">
-        <article class="caja">
-          <div>
-            <img src="./images/tienda/mortal-kombat-1.png" alt="mortal-kombat-1" />
-            <p>Mortal Kombat 1</p>
-            <p>Acción, combate</p>
-            <p>$50.000</p>
-          </div>
-        </article>
-        
-        <article class="caja">
-          <div>
-            <img src="./images/tienda/Fortnite.jpg" alt="fortnite" />
-            <p>Fortnite</p>
-            <p>Acción, shooter</p>
-            <p>$50</p>
-          </div>
-        </article>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/tienda.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Play&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
 
-        <article class="caja">
-          <div>
-            <img src="./images/tienda/fc-24.jpg" alt="fc-24" />
-            <p>EAFC 24</p>
-            <p>Deporte</p>
-            <p>$40.000</p>
-          </div>
-        </article>        
+<body>
+  <header id="header-container">
+    <nav class="header-navbar">
+      <div class="burger-navbar">
+        <img src="images/navbar/logo_gameverse.png" alt="Logo Gameverse" class="header-logo">
+
+        <button class="burger-menu" onclick="toggleNavLinks()">
+          <i class="fas fa-bars"></i>
+        </button>
       </div>
 
-      <div class="caja_carrusel">
-        <ul>
-            <li>
-                <img src="./images/tienda/spiderman-2.jpg" alt="spiderman-2">
-                <div class="descripcion_carrusel">
-                    <p>Los Spider-Men Peter Parker y Miles Morales regresan en una nueva y emocionante aventura de la aclamada franquicia Marvel's Spider-Man.</p>
-                </div>
-            </li>
-            <li>
-                <img src="./images/tienda/god-of-war-ragnarok.jpg" alt="god-of-war-ragnarok">
-                <div class="descripcion_carrusel">
-                    <p>De la mano de Santa Monica Studio, llega la secuela del juego aclamado por la crítica: God of War (2018). Fimbulvetr ya se avecina. Kratos y Atreus deben viajar a cada uno de los nueve reinos en búsqueda de respuestas, mientras que las fuerzas asgardianas se preparan para una batalla profetizada que terminará con el mundo.</p>
-                </div>
-            </li>
-            <li>
-                <img src="./images/tienda/gta-6.jpg" alt="gta-6">
-                <div class="descripcion_carrusel">
-                    <p>GTA 6 te lleva al ficticio estado estadounidense de Leonida, hogar de la metrópoli Vice City con sede en Miami, que se estrenó en la precuela de GTA III del mismo nombre en 2002. A diferencia del original, ambientado en los años 80, GTA 6 utiliza una versión moderna de Vice City como escenario.</p>
-                </div>
-            </li>
-            <li>
-                <img src="./images/tienda/ufc-5.jpg" alt="ufc-5">
-                <div class="descripcion_carrusel">
-                    <p>¿Qué distingue a las artes marciales mixtas? Los riesgos, la técnica, el drama y la realidad pura del momento. UFC 5 captura todo eso con detalles más auténticos que nunca, desde gráficos de próxima generación que renuevan la animación del juego, sistemas de daño que transmiten la brutalidad y la estrategia de la pelea, actualizaciones que hacen que la acción se sienta más fluida y realista, y mucho más.</p>
-                </div>
-            </li>
-            <li>
-                <img src="./images/tienda/back-4-blood.jpg" alt="back-4-blood">
-                <div class="descripcion_carrusel">
-                    <p>Estos huéspedes de un parásito, antes humanos, se convirtieron en criaturas terroríficas empeñadas en devorar lo que queda de la civilización. Con la extinción de la humanidad pendiendo de un hilo, depende de ti y de tus amigos enfrentar al enemigo, erradicar a los infectados y reclamar el mundo.
-                    </p>
-                </div>
-            </li>
+      <ul class="nav-links menu-1">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#">Acerca De</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+
+      <ul class="nav-links menu-2">
+        <li class="link-language">
+          <a><i class="fas fa-globe"></i></a>
+          <ul class="drop-down">
+            <li><a>ES</a></li>
+            <li><a>EN</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </li>
+        <li class="link-user">
+          <a><i class="fas fa-user-circle"></i></a>
+          <ul class="drop-down">
+            <li><a href="#">Registrarse</a></li>
+            <li><a href="#">Iniciar sesi&oacute;n</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <header>
+    <div class="barra_busqueda">
+      <input type="text" placeholder="Buscar..." />
+      <button><i class="fas fa-search"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="titulo_tendencia">TENDENCIAS</h2>
+    <div class="juego_tendencia">
+      <article class="caja">
+        <div>
+          <img src="./images/tienda/mortal-kombat-1.png" alt="mortal-kombat-1" />
+          <p>Mortal Kombat 1</p>
+          <p>Acción, combate</p>
+          <p>$50.000</p>
+        </div>
+      </article>
+
+      <article class="caja">
+        <div>
+          <img src="./images/tienda/Fortnite.jpg" alt="fortnite" />
+          <p>Fortnite</p>
+          <p>Acción, shooter</p>
+          <p>$50</p>
+        </div>
+      </article>
+
+      <article class="caja">
+        <div>
+          <img src="./images/tienda/fc-24.jpg" alt="fc-24" />
+          <p>EAFC 24</p>
+          <p>Deporte</p>
+          <p>$40.000</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="caja_carrusel">
+      <ul>
+        <li>
+          <img src="./images/tienda/spiderman-2.jpg" alt="spiderman-2">
+          <div class="descripcion_carrusel">
+            <p>Los Spider-Men Peter Parker y Miles Morales regresan en una nueva y emocionante aventura de la aclamada
+              franquicia Marvel's Spider-Man.</p>
+          </div>
+        </li>
+        <li>
+          <img src="./images/tienda/god-of-war-ragnarok.jpg" alt="god-of-war-ragnarok">
+          <div class="descripcion_carrusel">
+            <p>De la mano de Santa Monica Studio, llega la secuela del juego aclamado por la crítica: God of War (2018).
+              Fimbulvetr ya se avecina. Kratos y Atreus deben viajar a cada uno de los nueve reinos en búsqueda de
+              respuestas, mientras que las fuerzas asgardianas se preparan para una batalla profetizada que terminará
+              con el mundo.</p>
+          </div>
+        </li>
+        <li>
+          <img src="./images/tienda/gta-6.jpg" alt="gta-6">
+          <div class="descripcion_carrusel">
+            <p>GTA 6 te lleva al ficticio estado estadounidense de Leonida, hogar de la metrópoli Vice City con sede en
+              Miami, que se estrenó en la precuela de GTA III del mismo nombre en 2002. A diferencia del original,
+              ambientado en los años 80, GTA 6 utiliza una versión moderna de Vice City como escenario.</p>
+          </div>
+        </li>
+        <li>
+          <img src="./images/tienda/ufc-5.jpg" alt="ufc-5">
+          <div class="descripcion_carrusel">
+            <p>¿Qué distingue a las artes marciales mixtas? Los riesgos, la técnica, el drama y la realidad pura del
+              momento. UFC 5 captura todo eso con detalles más auténticos que nunca, desde gráficos de próxima
+              generación que renuevan la animación del juego, sistemas de daño que transmiten la brutalidad y la
+              estrategia de la pelea, actualizaciones que hacen que la acción se sienta más fluida y realista, y mucho
+              más.</p>
+          </div>
+        </li>
+        <li>
+          <img src="./images/tienda/back-4-blood.jpg" alt="back-4-blood">
+          <div class="descripcion_carrusel">
+            <p>Estos huéspedes de un parásito, antes humanos, se convirtieron en criaturas terroríficas empeñadas en
+              devorar lo que queda de la civilización. Con la extinción de la humanidad pendiendo de un hilo, depende de
+              ti y de tus amigos enfrentar al enemigo, erradicar a los infectados y reclamar el mundo.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contenedor_general_cat">
+      <div class="linea"></div>
+
+      <div class="categorias">
+        <div class="cat_boton">
+          <h2>Shooter</h2>
+          <button>Ver mas</button>
+        </div>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/half-life.jpg" alt="half-life">
+            <div class="categoria_descripcion">
+              <h2>Half Life</h2>
+              <p>$500</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/left-4-dead.jpg" alt="left-4-dead">
+            <div class="categoria_descripcion">
+              <h2>Left 4 Dead</h2>
+              <p>$700</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/gta-v.jpg" alt="gta-v">
+            <div class="categoria_descripcion">
+              <h2>GTA V</h2>
+              <p>$3.500</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/fortnite.jpg" alt="fortnite">
+            <div class="categoria_descripcion">
+              <h2>Fortnite</h2>
+              <p>$50</p>
+            </div>
+          </li>
         </ul>
       </div>
 
-      <div class="contenedor_general_cat">
-        <div class="linea"></div>
+      <div class="linea"></div>
 
-        <div class="categorias">
-          <div class="cat_boton">
-            <h2>Shooter</h2>
-            <button>Ver mas</button>
-          </div>          
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/half-life.jpg" alt="half-life">
-              <div class="categoria_descripcion">
-                <h2>Half Life</h2>
-                <p>$500</p>
-              </div>            
-            </li>
-          </ul>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/left-4-dead.jpg" alt="left-4-dead">
-              <div class="categoria_descripcion">
-                <h2>Left 4 Dead</h2>
-                <p>$700</p>
-              </div>            
-            </li>
-          </ul>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/gta-v.jpg" alt="gta-v">
-              <div class="categoria_descripcion">
-                <h2>GTA V</h2>
-                <p>$3.500</p>
-              </div>            
-            </li>
-          </ul>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/fortnite.jpg" alt="fortnite">
-              <div class="categoria_descripcion">
-                <h2>Fortnite</h2>
-                <p>$50</p>
-              </div>            
-            </li>
-          </ul>
+      <div class="categorias">
+        <div class="cat_boton">
+          <h2>Terror</h2>
+          <button>Ver mas</button>
         </div>
-
-        <div class="linea"></div>
-
-        <div class="categorias">
-          <div class="cat_boton">
-            <h2>Terror</h2>
-            <button>Ver mas</button>
-          </div>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/dead-by-daylight.jpg" alt="dead-by-daylight">
-              <div class="categoria_descripcion">
-                <h2>Dead by daylight</h2>
-                <p>$2900</p>
-              </div>            
-            </li>
-          </ul>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/resident-evil-4-remake.jpg" alt="resident-evil-4-remake">
-              <div class="categoria_descripcion">
-                <h2>Resident Evil 4: Remake</h2>
-                <p>$2900</p>
-              </div>            
-            </li>
-          </ul>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/sons-of-the-forest.jpg" alt="sons-of-the-forest">
-              <div class="categoria_descripcion">
-                <h2>Sons of the Forest</h2>
-                <p>$5500</p>
-              </div>            
-            </li>
-          </ul>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/back-4-blood.jpg" alt="back-4-blood">
-              <div class="categoria_descripcion">
-                <h2>Back 4 Blood</h2>
-                <p>$2500</p>
-              </div>            
-            </li>
-          </ul>
-        </div>
-
-        <div class="linea"></div>
-
-        <div class="categorias">
-          <div class="cat_boton">
-            <h2>Acción</h2>
-            <button>Ver mas</button>
-          </div>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/mortal-kombat-11.jpg" alt="mortal-kombat-11">
-              <div class="categoria_descripcion">
-                <h2>Mortal Kombat 11</h2>
-                <p>$6000</p>
-              </div>            
-            </li>
-          </ul>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/wwe-2k23.jpg" alt="wwe-2k23">
-              <div class="categoria_descripcion">
-                <h2>WWE 2k23</h2>
-                <p>$5200</p>
-              </div>            
-            </li>
-          </ul>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/tekken-7.jpg" alt="tekken-7">
-              <div class="categoria_descripcion">
-                <h2>Tekken 7</h2>
-                <p>$3500</p>
-              </div>            
-            </li>
-          </ul>
-          <ul class="contenedor_categoria">
-            <li>
-              <img src="./images/tienda/farcry-4.jpg" alt="farcry-4">
-              <div class="categoria_descripcion">
-                <h2>Farcry 4</h2>
-                <p>$4900</p>
-              </div>            
-            </li>
-          </ul>
-        </div>
-
-        <div class="linea"></div>
-
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/dead-by-daylight.jpg" alt="dead-by-daylight">
+            <div class="categoria_descripcion">
+              <h2>Dead by daylight</h2>
+              <p>$2900</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/resident-evil-4-remake.jpg" alt="resident-evil-4-remake">
+            <div class="categoria_descripcion">
+              <h2>Resident Evil 4: Remake</h2>
+              <p>$2900</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/sons-of-the-forest.jpg" alt="sons-of-the-forest">
+            <div class="categoria_descripcion">
+              <h2>Sons of the Forest</h2>
+              <p>$5500</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/back-4-blood.jpg" alt="back-4-blood">
+            <div class="categoria_descripcion">
+              <h2>Back 4 Blood</h2>
+              <p>$2500</p>
+            </div>
+          </li>
+        </ul>
       </div>
-      
-    </main>
-  </body>
+
+      <div class="linea"></div>
+
+      <div class="categorias">
+        <div class="cat_boton">
+          <h2>Acción</h2>
+          <button>Ver mas</button>
+        </div>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/mortal-kombat-11.jpg" alt="mortal-kombat-11">
+            <div class="categoria_descripcion">
+              <h2>Mortal Kombat 11</h2>
+              <p>$6000</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/wwe-2k23.jpg" alt="wwe-2k23">
+            <div class="categoria_descripcion">
+              <h2>WWE 2k23</h2>
+              <p>$5200</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/tekken-7.jpg" alt="tekken-7">
+            <div class="categoria_descripcion">
+              <h2>Tekken 7</h2>
+              <p>$3500</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="contenedor_categoria">
+          <li>
+            <img src="./images/tienda/farcry-4.jpg" alt="farcry-4">
+            <div class="categoria_descripcion">
+              <h2>Farcry 4</h2>
+              <p>$4900</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="linea"></div>
+
+    </div>
+
+  </main>
+
+  <footer id="footer-container">
+    <div class="footer-space">
+      <section class="footer-socialmedia">
+        <div class="social-facebook">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="social-twitter">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="social-instagram">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="social-youtube">
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="social-tiktok">
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </section>
+  
+      <section class="footer-terms">
+        <p>
+          Copyright © 2023-2023 Gameverse.
+        </p>
+      </section>
+    </div>
+  </footer>
+
+  <script src="js/navbar.js"></script>
+</body>
+
 </html>
