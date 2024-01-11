@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+main{
+    text-align: center;
+    background-color: #23145b;
+    color: #f4f4f4;
+}
+
+.carrusel-contenedor {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #23145b;
+    margin: auto;
+}
+
+.carrusel-track {
+    width: 300%;
+    height: 100%;
+    display: inline-flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-item {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.carrusel-item img {
+    
+    width: 96%;
+    height: 90%;
+    border-radius: 20px;
+    border: 10px solid #160d18;
+    
+}
+
+.carrusel-btn {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #23145b;
+    color: #fff;
+    cursor: pointer;
+}
+
+#antBtn {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+#sigBtn {
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.carousel-btn:hover {
+    background-color: #2980b9;
+}
+
+
+.carousel-indicators {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: #3498db;
+}
+@media (min-width: 800px){
+    .carrusel-contenedor {
+        width: 75%;
+        height: 75%;
+    }
+}

@@ -19,3 +19,19 @@ app.get(`/`, (req, res) => {
 app.get(`/tienda`, (req, res) => {
   res.sendFile(path.join(__dirname, `/views/tienda.html`))
 });
+
+app.get(`/login`, (req, res) => {
+  res.sendFile(path.join(__dirname, `/views/login-registro.html`))
+});
+
+app.get(`/producto`, (req, res) => {
+  res.sendFile(path.join(__dirname, `/views/producto.html`))
+});
+
+app.get(`/navbar`, (req, res) => {
+  res.sendFile(path.join(__dirname, `/views/navbar.html`))
+});
+
+app.get(`/footer`, (req, res) => {
+  res.sendFile(path.join(__dirname, `/views/footer.html`))
+});

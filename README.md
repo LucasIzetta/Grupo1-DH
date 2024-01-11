@@ -23,7 +23,7 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
   
 - **Vera, Esteban Sergio:** DESCRIPCION
   
-- **Peña, Pablo Martín:** DESCRIPCION
+- **Peña, Pablo Martín:** Bueno tengo 39 años me dedico a la reparacion de equipos electronicos soy estudiante de la carrera ingenieria informatia en la UCSE, me interesa la programacion y los deportes como el basket y futbol.
 
 ## Referencias
 

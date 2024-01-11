@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/producto.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Play&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header-container">
+    <nav class="header-navbar">
+      <div class="burger-navbar">
+        <img src="images/navbar/logo_gameverse.png" alt="Logo Gameverse" class="header-logo">
+
+        <button class="burger-menu" onclick="toggleNavLinks()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <ul class="nav-links menu-1">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/tienda">Tienda</a></li>
+        <li><a href="#">Acerca De</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+
+      <ul class="nav-links menu-2">
+        <li class="link-language">
+          <a><i class="fas fa-globe"></i></a>
+          <ul class="drop-down">
+            <li><a>ES</a></li>
+            <li><a>EN</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </li>
+        <li class="link-user">
+          <a><i class="fas fa-user-circle"></i></a>
+          <ul class="drop-down">
+            <li><a href="#">Registrarse</a></li>
+            <li><a href="#">Iniciar sesi&oacute;n</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+      <div class="contenedor-img">
+        <ul>
+          <li><img src="/images/producto/Gta0.jpg" alt=""></li>
+          <li><img src="/images/producto/Gta1.jpg" alt=""></li>
+          <li><img src="/images/producto/Gta2.jpg" alt=""></li>
+          <li><img src="/images/producto/Gta3.jpg" alt=""></li>
+          <li><img src="/images/producto/Gta4.jpg" alt=""></li>
+          <li><img src="/images/producto/Gta5.jpg" alt=""></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contenedor-info-product">
+      <div class="contenedor-img-detalle">
+        <img src="/images/producto/Gta-small.jpg">
+      </div>
+      <div class="contenedor-info-gral">
+        <div class="titulo-descripcion">
+          <h4>Sinopsis</h4>
+          <p id="desplegar" onclick="sitexto('sinopsis')">+</p>
+          <p id="ocultar" onclick="notexto('sinopsis')">-</p>
+
+        </div>
+        <div class="texto-gral" id="sinopsis">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Laboriosam iure provident atque voluptatibus
+            reiciendis quae rerum, maxime placeat enim cupiditate
+            voluptatum, temporibus quis iusto. Enim eum qui delectus
+            deleniti similique? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Sint autem magni earum est
+            dolorem saepe perferendis repellat ipsam laudantium cum
+            assumenda quidem quam, vero similique? Iusto officiis
+            quod blanditiis iste?
+          </p>
+        </div>
+      </div>
+      <div class="contenedor-info-gral">
+        <div class="titulo-descripcion">
+          <h4>Fecha de Lanzamiento</h4>
+          <p id="desplegar" onclick="sitexto('lanzamiento')">+</p>
+          <p id="ocultar" onclick="notexto('lanzamiento')">-</p>
+        </div>
+        <div class="texto-gral" id="lanzamiento">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Laboriosam iure provident atque voluptatibus
+            reiciendis quae rerum, maxime placeat enim cupiditate
+            voluptatum, temporibus quis iusto. Enim eum qui delectus
+            deleniti similique? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Sint autem magni earum est
+            dolorem saepe perferendis repellat ipsam laudantium cum
+            assumenda quidem quam, vero similique? Iusto officiis
+            quod blanditiis iste?</p>
+        </div>
+      </div>
+
+      <div class="contenedor-info-gral">
+        <div class="titulo-descripcion">
+          <h4>Desarrollador</h4>
+          <p id="desplegar" onclick="sitexto('desarrollador')">+</p>
+          <p id="ocultar" onclick="notexto('desarrollador')">-</p>
+        </div>
+        <div class="texto-gral" id="desarrollador">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Laboriosam iure provident atque voluptatibus
+            reiciendis quae rerum, maxime placeat enim cupiditate
+            voluptatum, temporibus quis iusto. Enim eum qui delectus
+            deleniti similique? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Sint autem magni earum est
+            dolorem saepe perferendis repellat ipsam laudantium cum
+            assumenda quidem quam, vero similique? Iusto officiis
+            quod blanditiis iste?</p>
+        </div>
+      </div>
+
+      <div class="contenedor-info-gral">
+        <div class="titulo-descripcion">
+          <h4>Categorias</h4>
+          <p id="desplegar" onclick="sitexto('categorias')">+</p>
+          <p id="ocultar" onclick="notexto('categorias')">-</p>
+        </div>
+        <div class="texto-gral" id="categorias">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Laboriosam iure provident atque voluptatibus
+            reiciendis quae rerum, maxime placeat enim cupiditate
+            voluptatum, temporibus quis iusto. Enim eum qui delectus
+            deleniti similique? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Sint autem magni earum est
+            dolorem saepe perferendis repellat ipsam laudantium cum
+            assumenda quidem quam, vero similique? Iusto officiis
+            quod blanditiis iste?</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div class="contenedor-nombre-producto">
+    <div>
+      <h2 class="texto-nombre-producto">Grand Theft Auto VI</h2>
+    </div>
+
+    <div>
+      <a href="" class="btn-carrito">Agregar al Carrito &#8611;</a>
+    </div>
+  </div>
+
+  <div class="contenedor-descripcion-ampliada">
+    <div>
+      <h4 class="texto-requisitos">Descripcion Ampliada</h4>
+    </div>
+
+    <p class="parrafo-descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing
+      elit. Laboriosam iure provident atque voluptatibus
+      reiciendis quae rerum, maxime placeat enim cupiditate
+      voluptatum, temporibus quis iusto. Enim eum qui delectus
+      deleniti similique? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Sint autem magni earum est
+      dolorem saepe perferendis repellat ipsam laudantium cum
+      assumenda quidem quam, vero similique? Iusto officiis
+      quod blanditiis iste?
+      Lorem ipsum dolor, sit amet consectetur adipisicing
+      elit. Laboriosam iure provident atque voluptatibus
+      reiciendis quae rerum, maxime placeat enim cupiditate
+      voluptatum, temporibus quis iusto. Enim eum qui delectus
+      deleniti similique? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Sint autem magni earum est
+      dolorem saepe perferendis repellat ipsam laudantium cum
+      assumenda quidem quam, vero similique? Iusto officiis
+      quod blanditiis iste?
+      Lorem ipsum dolor, sit amet consectetur adipisicing
+      elit. Laboriosam iure provident atque voluptatibus
+      reiciendis quae rerum, maxime placeat enim cupiditate
+      voluptatum, temporibus quis iusto. Enim eum qui delectus
+      deleniti similique? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Sint autem magni earum est
+      dolorem saepe perferendis repellat ipsam laudantium cum
+      assumenda quidem quam, vero similique? Iusto officiis
+      quod blanditiis iste?
+    </p>
+  </div>
+
+  <div class="contenedor-descripcion-ampliada">
+    <div>
+      <h4 class="texto-requisitos">Requisistos del Sistema</h4>
+    </div>
+    <img src="/images/producto/requisitos.jpg" alt="Requisitos del Sistema">
+  </div>
+
+  <footer id="footer-container">
+    <div class="footer-space">
+      <section class="footer-socialmedia">
+        <div class="social-facebook">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="social-twitter">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="social-instagram">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="social-youtube">
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="social-tiktok">
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </section>
+  
+      <section class="footer-terms">
+        <p>
+          Copyright © 2023-2023 Gameverse.
+        </p>
+      </section>
+    </div>
+  </footer>
+
+  <script>
+    function notexto(texto) {
+      document.getElementById('ocultar').style.display = 'none';
+      document.getElementById('desplegar').style.display = 'block';
+      document.getElementById(texto).style.display = 'none';
+    }
+
+    function sitexto(texto) {
+      document.getElementById('ocultar').style.display = 'block';
+      document.getElementById('desplegar').style.display = 'none';
+      document.getElementById(texto).style.display = 'block';
+    }
+  </script>
+
+  <script src="js/navbar.js"></script>
+</body>
+
+</html>
