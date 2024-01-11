@@ -11,8 +11,18 @@ body {
     background-color: #271a48;
 }
 /*HEADER*/
+.barra_busqueda {
+    padding-top: 20px;
+}
 .barra_busqueda input{
-    color: black;
+    border-radius: 50px;
+    border: 3px solid #1d133d;
+    box-shadow: 0px 0px 10px #1d133d;
+}
+.barra_busqueda button{
+    color: #1d133d;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #1d133d;
 }
 
 /*MAIN*/
