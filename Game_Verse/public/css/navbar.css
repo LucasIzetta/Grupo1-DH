@@ -34,12 +34,14 @@
   border-radius: 5px;
   font-size: 20px;
   margin-right: 10px;
-  transition: all 0.1s ease-in-out;
   cursor: pointer;
+  transition-property: background-color, transform;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
 }
 
 .burger-menu:hover {
-  background-color: #23145B;
+  background-color: #271a48;
   transform: scale(1.1);
 }
 
@@ -47,9 +49,15 @@
   display: none;
 }
 
+.show {
+  display: block;
+}
+
+/**
+  DROPDOWN
+*/
 .drop-down {
   display: none;
-  transition: all 0.1s ease-in-out;
   border-top: 1px solid black;
 }
 
@@ -67,6 +75,11 @@
   color: black;
 }
 
+.link-language,
+.link-user {
+  display: block;
+}
+
 .link-language:hover .drop-down,
 .link-user:hover .drop-down {
   display: block;
@@ -81,10 +94,8 @@
 .nav-links li,
 .drop-down li {
   list-style: none;
-  height: 100%;
   padding: 15px 0;
   text-align: center;
-  transition: all 0.1s ease-in-out;
   cursor: pointer;
 }
 
@@ -92,7 +103,7 @@
   background: white;
 }
 
-.nav-links > li {
+.nav-links>li {
   border-bottom: 1px solid transparent;
 }
 
@@ -108,7 +119,7 @@
 }
 
 .drop-down li:hover {
-  background: #23145B;
+  background-color: #271a48;
 }
 
 .nav-links>li:hover>a {
@@ -124,9 +135,29 @@
   display: block;
 }
 
+/**
+  MEDIA ---------------------------------
+*/
 @media (min-width: 800px) {
   #header-container {
+    position: relative;
+    background: linear-gradient(to bottom, #160D18, transparent);
+    transition: background-color 0.5s ease;
+  }
+
+  #header-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background: linear-gradient(to bottom, #160D18, #271a48);
+    z-index: -1;
+  }
+
+  #header-container:hover {
+    background: black;
   }
 
   .burger-menu {
@@ -134,7 +165,7 @@
   }
 
   .header-navbar {
-    display: flex;    
+    display: flex;
     align-items: center;
   }
 
@@ -150,26 +181,31 @@
     display: flex;
   }
 
-  .link-user {
+  .link-user,
+  .link-language {
     position: relative;
   }
 
   .drop-down {
     position: absolute;
-    border-top: none;
+  }
+
+  .drop-down>li {
+    background-color: white;
+    border-bottom: 1px solid rgba(39, 26, 72, 0.5);
   }
 
   .nav-links li:hover {
-    border-bottom: 1px solid #23145B;
-  }
-
-  .nav-links li {
-    transition: none;
+    border-bottom: 1px solid black;
   }
 
   .nav-links li>a {
     padding: 8px 20px;
     margin: 0;
+  }
+
+  .link-language .drop-down>li a {
+    padding: 10px 16.5px;
   }
 
   .link-user .drop-down {
@@ -179,5 +215,5 @@
   .nav-links .link-language:hover i,
   .nav-links .link-user:hover i {
     padding: 0 0 17px;
-  }  
+  }
 }
