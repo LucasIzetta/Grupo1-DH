@@ -29,13 +29,13 @@
 
 Tener mas de un dia a la semana para las reuniones grupales para compartir el progreso y los problemas en las tareas designadas de 	cada integrante.
 
-3. Hacer más:
+2. Hacer más:
 
  Estar al tanto de las actividades del playground.
  
  Tratar de coordinar mejor los pequeños detalles a la hora de realizar las tareas de los sprint.
 
-5. Continuar haciendo:
+3. Continuar haciendo:
 
  Continuar realizando las reuniones programadas para realizar las tareas de los sprint con anticipacion a las fechas de entrega.
  
@@ -43,12 +43,12 @@ Tener mas de un dia a la semana para las reuniones grupales para compartir el pr
 
 Debemos continuar concentrandonos en los puntos a discutir en las reuniones para que sean rapidas y claras.
    
-7. hacer menos:
+4. hacer menos:
 
  No charlar tanto de temas off-topic en las reuniones.
 
 No confiarse en el tiempo estimado de entrega, ya que por distintas razones se puede adelantar o retrasar.
    
-9. Dejar de hacer:
+5. Dejar de hacer:
 
  Dejar de aplicar algunas malas practicas de forma individual, ya que hacen surgir pequeños conflictos a la hora de presentar los proyectos completos.
