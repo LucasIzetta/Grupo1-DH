@@ -21,7 +21,7 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
 
 - **Robles, Axel Iván Lautaro:** tengo 23 años, actualmente estudio programación de videojuegos en la UnJuFi cursando el 2do año, en mis tiempos libres me gusta juntarme con mis amigos, jugar videojuegos y hacer streaming.
   
-- **Vera, Esteban Sergio:** DESCRIPCION
+- **Vera, Esteban Sergio:** tengo 23 años, actualmente estoy estudiando en la facultad de ingenieria de la UnjU, me gusta mucho programar en todo tipo de lenguajes de programacion tales como c#, c++, java, javascritp y python. 
   
 - **Peña, Pablo Martín:** Bueno tengo 39 años me dedico a la reparacion de equipos electronicos soy estudiante de la carrera ingenieria informatia en la UCSE, me interesa la programacion y los deportes como el basket y futbol.
 
@@ -35,7 +35,7 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
 
 ## Estetica
 
-Colores: [Paleta de Colores](https://paletadecolores.com.ar/paleta/160d18/23145b/09456c/026f6e/1ca39e/)
+Colores: [Paleta de Colores](https://paletadecolores.com.ar/paleta/271a48/1d133d/130d32/0a0628/00001d/)
 
 Tipografia: [Google Fonts](https://fonts.google.com/specimen/Play)
 
