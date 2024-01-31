@@ -21,34 +21,34 @@
 	
   	No distraerse con factores externos y concentrarse en las reuniones para que sean lo mas clara y corta posibles.+
    
-# Dinamica Estrella de Mar SPRINT 02
+# Retrospectiva Sprint 03
 
 1. Comenzar a hacer:
 
- Debemos comenzar a realizar las tareas designadas del sprint 03 y tomar los preever lo necesario para el sprint 04.
+	Debemos comenzar a realizar las tareas designadas del sprint 03 y preever lo necesario para el sprint 04.
 
-Tener mas de un dia a la semana para las reuniones grupales para compartir el progreso y los problemas en las tareas designadas de 	cada integrante.
+	Tener mas de un dia a la semana para las reuniones grupales para compartir el progreso y los problemas en las tareas designadas de cada integrante.
 
 2. Hacer más:
 
- Estar al tanto de las actividades del playground.
+	Estar al tanto de las actividades del playground.
  
- Tratar de coordinar mejor los pequeños detalles a la hora de realizar las tareas de los sprint.
+ 	Tratar de coordinar mejor los pequeños detalles a la hora de realizar las tareas de los sprints.
 
 3. Continuar haciendo:
 
- Continuar realizando las reuniones programadas para realizar las tareas de los sprint con anticipacion a las fechas de entrega.
+ 	Continuar realizando las reuniones programadas para realizar las tareas de los sprint con anticipacion a las fechas de entrega.
  
- Continuar usando las apps de comunicacion, como WhatsApp, para mantener informado al grupo sobre la situacion personal de cada uno y mantener al tanto su progreso en las respectivas tareas.
+ 	Continuar usando las apps de comunicacion, como WhatsApp, Trello y Discord, para mantener informado al grupo sobre la situacion personal de cada uno respecto al progreso en las tareas.
 
-Debemos continuar concentrandonos en los puntos a discutir en las reuniones para que sean rapidas y claras.
+	Debemos continuar concentrandonos en los puntos a discutir en las reuniones para que sean rapidas y claras.
    
 4. hacer menos:
 
- No charlar tanto de temas off-topic en las reuniones.
+ 	No charlar tanto de temas off-topic en las reuniones.
 
-No confiarse en el tiempo estimado de entrega, ya que por distintas razones se puede adelantar o retrasar.
+	No confiarse en el tiempo estimado de entrega.
    
 5. Dejar de hacer:
 
- Dejar de aplicar algunas malas practicas de forma individual, ya que hacen surgir pequeños conflictos a la hora de presentar los proyectos completos.
+ 	Dejar de aplicar algunas malas practicas de forma individual, ya que hacen surgir pequeños conflictos a la hora de presentar los proyectos completos.
