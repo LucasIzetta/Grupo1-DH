@@ -53,13 +53,13 @@ main{
 }
 
 #antBtn {
-    left: 10px;
-    transform: translateY(-50%);
+    left: 50px;
+    transform: translateY(50%);
 }
 
 #sigBtn {
-    right: 10px;
-    transform: translateY(-50%);
+    right: 50px;
+    transform: translateY(50%);
 }
 
 .carousel-btn:hover {
@@ -68,20 +68,25 @@ main{
 
 
 .carousel-indicators {
+    position: relative;
     text-align: center;
-    margin-top: 10px;
+    margin-top: -50px;
+    padding-bottom: 25px;
 }
 
 .indicator {
+    position: relative;
+     z-index: 2; 
     display: inline-block;
     width: 10px;
     height: 10px;
     background-color: #ddd;
+    border: #23145b solid 2px;
     border-radius: 50%;
     margin: 0 5px;
+
     cursor: pointer;
 }
-
 .indicator.active {
     background-color: #3498db;
 }
