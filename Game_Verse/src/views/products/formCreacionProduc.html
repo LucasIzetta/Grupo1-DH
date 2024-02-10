@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('../partials/head.ejs') %>
+
+<body>
+  <%- include('../partials/navbar.ejs') %>
+
+    <h1>Cargar Juego</h1>
+    <form action="/create-product" method="POST">
+        <div>
+        <label for="name">Titulo:</label>
+        <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="synopsis">Sinopsis:</label>
+            <textarea id="synopsis" name="synopsis" required></textarea>
+        </div>
+        <div>
+        <label for="description">Descripción:</label>
+        <textarea id="description" name="description" required></textarea>
+        </div>
+        <div>
+            <label for="developer">Desarrollador:</label>
+            <input type="text" id="developer" name="developer" required>
+        </div>
+        <div>
+        <label for="image">Portada:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+        </div>
+        <div>
+            <label for="images">Imágenes:</label>
+            <input type="file" id="images" name="images[]" accept="image/*" multiple required>
+        </div>
+        <div>
+            <label for="category">Categoría:</label>
+            <select id="category" name="category" required>
+                <option value="">Seleccione una categoría</option>
+                <option value="Acción">Acción</option>
+                <option value="Aventura">Aventura</option>
+                <option value="Rol (RPG)">Rol (RPG)</option>
+                <option value="Estrategia">Estrategia</option>
+                <option value="Disparos (Shooters)">Disparos (Shooters)</option>
+                <option value="Deportes">Deportes</option>
+                <option value="Carreras">Carreras</option>
+                <option value="Plataforma">Plataforma</option>
+                <option value="Rompecabezas (Puzzle)">Rompecabezas (Puzzle)</option>
+                <option value="Simulación">Simulación</option>
+                <option value="Mundo abierto (Open world)">Mundo abierto (Open world)</option>
+                <option value="Supervivencia (Survival)">Supervivencia (Survival)</option>
+                <option value="Horror">Horror</option>
+                <option value="Lucha (Fighting)">Lucha (Fighting)</option>
+                <option value="Multijugador en línea (Online multiplayer)">Multijugador en línea (Online multiplayer)</option>
+                <option value="Juegos de mesa">Juegos de mesa</option>
+                <option value="Educativos">Educativos</option>
+                <option value="Indie">Indie</option>
+                <option value="Sandbox">Sandbox</option>
+                <option value="Realidad virtual (VR)">Realidad virtual (VR)</option>
+            </select>
+        </div>
+        <div>
+            <label for="price">Precio:</label>
+            <input type="number" id="price" name="price" min="0" step="0.01" required>
+            <label for="currency">Moneda:</label>
+            <select id="currency" name="currency" required>
+                <option value="USD">Dólar estadounidense (USD)</option>
+                <option value="ARS">Peso argentino (ARS)</option>
+            </select>
+        </div>
+        <div>
+            <label for="release-date">Fecha de Lanzamiento:</label>
+            <input type="date" id="release-date" name="release-date" required>
+        </div>
+        
+        <button type="submit">Publicar</button>
+        
+    </form>
+</body>
+</html>

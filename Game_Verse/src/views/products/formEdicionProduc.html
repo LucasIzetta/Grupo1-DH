@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('../partials/head.ejs') %>
+
+<body>
+  <%- include('../partials/navbar.ejs') %>
+
+    <h1>Editar Juego</h1>
+    <form action="/edit-product/<%= product._id %>" method="POST">
+        <div>
+            <label for="name">Titulo:</label>
+            <input type="text" id="name" name="name" value="<%= product.name %>" required>
+        </div>
+        <div>
+            <label for="synopsis">Sinopsis:</label>
+            <textarea id="synopsis" name="synopsis" required><%= product.synopsis %></textarea>
+        </div>
+        <div>
+            <label for="description">Descripción:</label>
+            <textarea id="description" name="description" required><%= product.description %></textarea>
+        </div>
+        <div>
+            <label for="developer">Desarrollador:</label>
+            <input type="text" id="developer" name="developer" value="<%= product.developer %>" required>
+        </div>
+        <div>
+            <label for="image">Portada:</label>
+            <input type="file" id="image" name="image" accept="image/*">
+            <p>Imagen actual:</p>
+            <img src="<%= product.image %>" alt="Portada actual">
+        </div>
+        <div>
+            <label for="images">Imágenes:</label>
+            <input type="file" id="images" name="images[]" accept="image/*" multiple>
+            <p>Imágenes actuales:</p>
+            <% product.images.forEach(image => { %>
+                <img src="<%= image %>" alt="Imagen actual">
+            <% }); %>
+        </div>
+        <div>
+            <label for="category">Categoría:</label>
+            <select id="category" name="category" required>
+                <option value="">Seleccione una categoría</option>
+                <!-- Aquí puedes agregar el código para generar las opciones de categoría -->
+            </select>
+        </div>
+        <div>
+            <label for="price">Precio:</label>
+            <input type="number" id="price" name="price" min="0" step="0.01" value="<%= product.price %>" required>
+            <label for="currency">Moneda:</label>
+            <select id="currency" name="currency" required>
+                <option value="USD" <% if(product.currency === 'USD') { %>selected<% } %>>Dólar estadounidense (USD)</option>
+                <option value="ARS" <% if(product.currency === 'ARS') { %>selected<% } %>>Peso argentino (ARS)</option>
+            </select>
+        </div>
+        <div>
+            <label for="release-date">Fecha de Lanzamiento:</label>
+            <input type="date" id="release-date" name="release-date" value="<%= product.release_date %>" required>
+        </div>
+        
+        <button type="submit">Guardar Cambios</button>
+    </form>
+</body>
+</html>
+
