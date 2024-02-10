@@ -21,7 +21,7 @@ Somos un equipo de 6 apasionados por los videojuegos con sede en la provincia de
 2) Robles, Axel Iván Lautaro: tengo 23 años, actualmente estudio programación de videojuegos en la UnJuFi cursando el 2do año, en mis tiempos libres me gusta juntarme con mis amigos, jugar videojuegos y hacer streaming.
 3) Vera, Esteban Sergio
 4) Peña, Pablo Martín
-5) Zambrano, Lucas Ignacio Emanuel
+5) Zambrano, Lucas Ignacio Emanuel: tengo 26 años, estoy en 3er año de ingenieria en datos, me gusta la programacion y el mundo de los datos, sueño con innovar en este mundo mundo atravez del codigo.
 ## Referencias:
 
 1) Epic Games
